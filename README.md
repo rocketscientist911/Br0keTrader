@@ -12,12 +12,13 @@ If a trade is executed, the script updates the initial balance, the total number
 
 If an exception occurs, the script prints out an error message and continues with the next iteration of the while loop. If the script is interrupted by a keyboard interrupt, the script prints out a message and exits the while loop.
 
-
-`webadmin@elasticsearch:~$ python3 test.py BTCUSDT
+```
+webadmin@elasticsearch:~$ python3 test.py BTCUSDT
 Most Profitable Day and Hour for Long Trades: ('Friday', 1)
 Most Profitable Day and Hour for Short Trades: ('Friday', 2)
 Most Profitable Day for Trades: Thursday (Profit: 57.82%)
-------------
+
+
 Weekday Analysis:
             Profit  Position  Position USDT  Margin Balance  Win Rate  Profit per Trade
 Weekday
@@ -28,3 +29,5 @@ Sunday    -1021.76       0.0              0          689.54       NaN           
 Thursday    578.20       1.0            250          750.20       NaN               NaN
 Tuesday    -263.58      -1.0           -250          159.74       NaN               NaN
 Wednesday    14.00       0.0              0          173.74       NaN               NaN`
+
+
